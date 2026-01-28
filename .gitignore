@@ -1,0 +1,41 @@
+# Universal Kit Exclusions:
+logo.png
+*_GUIDE.md
+GLOBAL_RULES.md
+00_*
+*_template.pyw
+Build_Tools/*.template
+Build_Tools/*_template.py
+Sessions/
+*.lnk
+*.bat
+*.log
+*.tmp
+*.json
+*.exe
+*.ahk
+.DS_Store
+.ruff_cache/
+.idea/
+.vscode/
+.env.local
+.env.production
+test_output/
+fixtures/temp/
+node_modules/
+pycache/
+target/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+dist/
+build/
+
+# App specific
+Stopwatch/
+
+# Exceptions
+!Build_Tools/Stopwatch.spec
