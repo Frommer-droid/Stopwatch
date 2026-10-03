@@ -1,0 +1,7 @@
+PyInstaller
+PySide6
+keyboard
+pyautogui
+pygetwindow
+pygame
+pyperclip
